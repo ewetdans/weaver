@@ -51,7 +51,7 @@
 - **networks.socketUrl** - An optional parameter for the connection end-points of the writing centrifuge. Default value: to be provided by the go-ibax configuration
 - **networks.activationEmail** - An optional parameter, to be displayed for the user for KYC when there is no activated node to be logged in.
 - **networks.enableDemoMode** - Guest authorization with private key will be enabled when set to true
-- **networks.disableSync** - An optional parameter to disable the synchronization of a full node. Please be cautious in using it for security reason
+- **networks.disableSync** - An optional parameter to disable the synchronization of a honor node. Please be cautious in using it for security reason
 
 ### Get code
 
