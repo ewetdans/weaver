@@ -55,7 +55,7 @@
 
 ### Get code
 
-`$ git clone https://github.com/IBAX/ibax-front.git`
+`$ git clone https://github.com/IBAX-io/weaver.git`
 
 ### Installation dependency
 
