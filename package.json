@@ -1,13 +1,13 @@
 {
-  "name": "ibax-front",
+  "name": "weaver",
   "version": "1.0.0",
   "author": {
-    "name": "ibax-front"
+    "name": "ibax"
   },
   "license": "SEE LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBAX/ibax-front"
+    "url": "https://github.com/IBAX-io/weaver.git"
   },
   "private": true,
   "main": "./electron/index.js",

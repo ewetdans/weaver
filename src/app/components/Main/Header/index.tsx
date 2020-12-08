@@ -24,7 +24,7 @@ interface Props {
 
 const StyledHeader = themed.header`
     background: ${(props) => props.theme.menubarBackground};
-    height: 50px;
+    height: 40px;
     color: ${(props) => props.theme.menubarForeground};
     transition: width .32s ease-in-out;
     position: absolute;
