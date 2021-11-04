@@ -1,6 +1,6 @@
 /* MIT License
 
-Copyright (c) 2020 IBAX
+Copyright (c)2019 - 2021 IBAX
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,35 +20,37 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
-  @font-face {
-  font-family: "ibax-front";
-  src: url("../fonts/ibax-front.eot");
-  src: url("../fonts/ibax-front.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/ibax-front.woff2") format("woff2"),
-       url("../fonts/ibax-front.woff") format("woff"),
-       url("../fonts/ibax-front.ttf") format("truetype"),
-       url("../fonts/ibax-front.svg#ibax-front") format("svg");
+@font-face {
+  font-family: 'ibax-front';
+  src: url('../fonts/ibax-front.eot');
+  src: url('../fonts/ibax-front.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ibax-front.woff2') format('woff2'),
+    url('../fonts/ibax-front.woff') format('woff'),
+    url('../fonts/ibax-front.ttf') format('truetype'),
+    url('../fonts/ibax-front.svg#ibax-front') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
-    font-family: "ibax-front";
-    src: url("../fonts/ibax-front.svg#ibax-front") format("svg");
+    font-family: 'ibax-front';
+    src: url('../fonts/ibax-front.svg#ibax-front') format('svg');
   }
 }
 
-  [data-icon]::before { content: attr(data-icon); }
+[data-icon]::before {
+  content: attr(data-icon);
+}
 
-  [data-icon]::before,
-  .o-checkround-1::before,
+[data-icon]::before,
+.o-checkround-1::before,
 .o-inforound-1::before,
 .o-shieldcheck-1::before,
 .o-shieldcross-1::before,
 .o-warninground-1::before {
-    display: inline-block;
-  font-family: "ibax-front";
+  display: inline-block;
+  font-family: 'ibax-front';
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -59,12 +61,20 @@ SOFTWARE. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  }
+}
 
-  .o-checkround-1::before { content: "\11df4"; }
-.o-inforound-1::before { content: "\11df5"; }
-.o-shieldcheck-1::before { content: "\11df6"; }
-.o-shieldcross-1::before { content: "\11df7"; }
-.o-warninground-1::before { content: "\11df8"; }
-
-  
+.o-checkround-1::before {
+  content: '\11df4';
+}
+.o-inforound-1::before {
+  content: '\11df5';
+}
+.o-shieldcheck-1::before {
+  content: '\11df6';
+}
+.o-shieldcross-1::before {
+  content: '\11df7';
+}
+.o-warninground-1::before {
+  content: '\11df8';
+}

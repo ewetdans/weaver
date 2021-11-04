@@ -100,7 +100,7 @@ export default themed(injectIntl(Auth))`
                 border: 0;
 
                 > .panel-heading {
-                     position: relative;
+                    position: relative;
                     background: ${(props) => props.theme.headerBackground};
                     background-size: 65px;
                     height: 28px;

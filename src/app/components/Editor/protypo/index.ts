@@ -558,10 +558,10 @@ const register = (editor: typeof monaco) => {
           insertText: 'Icon: '
         },
         {
-          label: 'Clb',
+          label: 'Vde',
           kind: monaco.languages.CompletionItemKind.Property,
-          documentation: 'Sets link destination: "true" for CLB and "false" for blockchain',
-          insertText: 'Clb: '
+          documentation: 'Sets link destination: "true" for VDE and "false" for blockchain',
+          insertText: 'Vde: '
         }
       ]
     },

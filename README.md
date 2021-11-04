@@ -1,5 +1,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![](https://tokei.rs/b1/github/IBAX-io/weaver)](https://github.com/IBAX-io/weaver)
+[![Build Status](https://travis-ci.org/IBAX/ibax-front.svg?branch=master)](https://travis-ci.org/IBAX/ibax-front)
+[![](https://tokei.rs/b1/github/IBAX/ibax-front)](https://github.com/IBAX/ibax-front)
+![](https://reposs.herokuapp.com/?path=IBAX/ibax-front&style=flat)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IBAX?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Weaver
 
@@ -48,11 +51,11 @@
 - **networks.socketUrl** - An optional parameter for the connection end-points of the writing centrifuge. Default value: to be provided by the go-ibax configuration
 - **networks.activationEmail** - An optional parameter, to be displayed for the user for KYC when there is no activated node to be logged in.
 - **networks.enableDemoMode** - Guest authorization with private key will be enabled when set to true
-- **networks.disableSync** - An optional parameter to disable the synchronization of a honor node. Please be cautious in using it for security reason
+- **networks.disableSync** - An optional parameter to disable the synchronization of a full node. Please be cautious in using it for security reason
 
 ### Get code
 
-`$ git clone https://github.com/IBAX-io/weaver.git`
+`$ git clone https://github.com/IBAX/ibax-front.git`
 
 ### Installation dependency
 

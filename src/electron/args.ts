@@ -1,3 +1,4 @@
+
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) IBAX All rights reserved.
  *  See LICENSE in the project root for license information.
@@ -33,7 +34,7 @@ const command = commander
 
 const args: IInferredArguments = {
   privateKey: command.privateKey,
-  honornode: command.honornode,
+  fullNode: command.fullNode,
   dry: command.dry,
   offsetX: command.offsetX,
   offsetY: command.offsetY,

@@ -1,10 +1,3 @@
-/*
- * @Author: abc
- * @Date: 2020-12-03 10:24:10
- * @LastEditors: abc
- * @LastEditTime: 2020-12-07 12:24:06
- * @Description:
- */
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) IBAX All rights reserved.
  *  See LICENSE in the project root for license information.

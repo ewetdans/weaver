@@ -88,6 +88,7 @@ class NetworkListView extends React.Component<
   ];
 
   render() {
+    console.log(this.props.preconfiguredNetworks)
     return (
       <Table
         bordered

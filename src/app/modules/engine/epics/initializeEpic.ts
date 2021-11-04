@@ -30,13 +30,13 @@ const initializeEpic: Epic = (action$, store, { defaultPassword }) => action$.of
       const preconfiguredNetworks: INetwork[] = [];
       let defaultNetworkSet = false;
 
-      if (platform.args.dry && platform.args.honornode && 'number' === typeof platform.args.networkID) {
+      if (platform.args.dry && platform.args.fullNode && 'number' === typeof platform.args.networkID) {
         defaultNetworkSet = true;
         preconfiguredNetworks.push({
           uuid: DEFAULT_NETWORK,
           id: platform.args.networkID,
           name: platform.args.networkName,
-          honorNodes: platform.args.honornode,
+          honorNodes: platform.args.fullNode,
           socketUrl: platform.args.socketUrl,
           activationEmail: platform.args.activationEmail,
           disableSync: platform.args.disableHonorNodesSync,
